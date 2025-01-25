@@ -499,7 +499,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/about_ur_moonshining/5"),
             InlineKeyboardButton(
-                text="Owner's clan 🎄", url=f"https://t.me/grandxmasti"
+                text="Owner's clan 🎄", url=f"https://t.me/TWC_CHATS"
             ),
         ],
         [
@@ -775,7 +775,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="⭐ Support ⭐", url=f"https://t.me/TWC_CHATS"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -793,7 +793,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="Guide 📃", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="Guide 📃", url=f"https://t.me/TWC_CHATS"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -820,8 +820,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/grandxmasti"),
-            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/kittyxupdates "),
+            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/TWC_CHATS"),
+            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/PandaLovebaby "),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -831,7 +831,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
-
+https://t.me/pwmbothub
 @app.on_callback_query(filters.regex("galaxy"))
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
@@ -843,8 +843,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/PandaLovebaby"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/TWC_CHATS"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -864,8 +864,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/TWC_CHATS"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/PandaLovebaby"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]

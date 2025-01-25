@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC", 
+    "https://github.com/Moonshining1/gana", 
 )
 # iss link ko mt remove krna harmai ye management wlaa hai isme hi sub code hai management ke liye..
 # Fill here the external plugins repo where plugins that you want to load
@@ -90,7 +90,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC",
+    "https://github.com/Moonshining1/gana",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -111,14 +111,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
+    "SUPPORT_CHANNEL", "https://t.me/PandaLovebaby"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/TWC_CHATS"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Grandxmasti"
+    "SUPPORT_GROUP", "https://t.me/TWC_CHATS"
 )  # Example:- https://t.me/Grandxmasti
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")

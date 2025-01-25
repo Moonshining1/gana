@@ -831,7 +831,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
-https://t.me/pwmbothub
+
 @app.on_callback_query(filters.regex("galaxy"))
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
